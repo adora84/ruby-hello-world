@@ -1,7 +1,11 @@
 class HelloWorld
    def self.hello
-       #
-       # YOUR CODE GOES HERE
-       #
-   end
-end 
+     if self.hello == "hi"
+        puts "Hello World"
+     elsif self.hello == def MyName(name)
+        puts "Hello #{name}!"
+     else
+        puts "Hello World"
+     end
+  end
+end
